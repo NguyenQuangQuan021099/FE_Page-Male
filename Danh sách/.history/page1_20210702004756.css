@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+.product__item
+
+img{
+    width: 587px;
+    height: 892px;
+    margin: auto ;
+}

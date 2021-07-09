@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+.product__item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 587px;
+    height: 892px;
+    margin: auto ;
+}
+
+.content{
+    color: #222;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.price{
+    opacity: 0.7;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.mini__img{
+    display: flex;
+    position: relative;
+}
+
+.mini__img .img__mini-1, .img__mini-2, .img__mini-3-1,.img__mini-3-2, .img__mini-4-1, .img__mini-4-2,
+.img__mini-5-1,.img__mini-5-2, .img__mini-6-1, .img__mini-6-2, .img__mini-6-3, .img__mini-6-4,.img__mini-6-5,
+.img__mini-7-1, .img__mini-7-2, .img__mini-7-3, .img__mini-7-4,.img__mini-7-5, .img__mini-8,.img__mini-9-1,
+.img__mini-9-2,.img__mini-9-3,.img__mini-9-4,.img__mini-9-5,.img__mini-10,.img__mini-11-1,.img__mini-11-2,.img__mini-11-3,
+.img__mini-11-4, .img__mini-12-1, .img__mini-12-2{
+    width: 20px;
+    height: 20px;
+    background-size: initial;
+}
+
+
+.mini__img .img__mini-1{
+    background: url(./img/10f20dpa036.3_1_1.jpg) center no-repeat;
+}
